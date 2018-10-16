@@ -31,7 +31,8 @@ Vue.use(ClickCopy)
 ```
 Single component
 ```javascript
-import { copy } from 'vue-directive-copy'
+import { copy } from 'vue-directive-copy/src/copy'
+import 'vue-directive-copy/src/style.css'
 
 export default {
   directives: {
