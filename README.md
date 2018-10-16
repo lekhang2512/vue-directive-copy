@@ -78,5 +78,5 @@ export default {
 </script>
 ```
 ## References
-- [vue-popperjs](https://github.com/sindresorhus/copy-text-to-clipboard#readme)
+- [copy-text-to-clipboard](https://github.com/sindresorhus/copy-text-to-clipboard#readme)
 - [v-copy](https://github.com/egoist/v-copy)
