@@ -2,8 +2,14 @@ import utils from './utils'
 
 export const copy = {
   bind(el, { value, arg, modifiers }) {
+    let position = 'top'
+    if (arg) {
+      position = arg
+    }
+
     el.classList.add('copy-tooltip')
     el.setAttribute('copy-tooltip', 'click copy')
+    el.setAttribute('copy-tooltip-position', arg)
     if (arg === 'callback') {
       el.$copyCallback = value
     } else {

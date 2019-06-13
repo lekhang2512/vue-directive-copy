@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <span v-copy="'Le Khang'">Le Khang</span>
+    <span v-copy:top="'Le Khang'">Le Khang</span>
   </div>
 </template>
 
